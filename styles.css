@@ -1,0 +1,66 @@
+:root {
+    --verde: #025601;
+}
+
+body {
+    margin: 0;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.header span {
+    position: absolute;
+    left: 10px;
+    top: 4px;
+}
+
+.header {
+    padding: 0 24px;
+    color: white;
+    background-color: var(--verde);
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 10px;
+    
+}
+
+.asignatura {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.fecha {
+    justify-self: flex-end;
+    font-size: 0.9rem;
+}
+
+.container {
+    padding: 6px 24px;
+}
+
+.top {
+    border-bottom: 1px solid rgb(205, 205, 205);
+}
+
+.top,
+.nota {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nota-palabra p:first-child,
+.nota-numerica p:first-child {
+    font-size: 0.6rem;
+    margin-bottom: -10px;
+    color: rgb(113, 113, 113)
+}
+
+.nota-palabra p:last-child,
+.nota-numerica p:last-child {
+    font-size: 0.9rem;
+}
